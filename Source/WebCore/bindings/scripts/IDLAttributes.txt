@@ -86,6 +86,7 @@ JSWindowEventListener
 MasqueradesAsUndefined
 NamedConstructor=*
 NamedGetter
+Nondeterministic
 NotEnumerable
 NumericIndexedGetter
 ObjCCustomImplementation
@@ -98,7 +99,6 @@ PassThisToCallback=*
 Reflect=*
 Replaceable
 ReplaceableConstructor
-ReplayNotImplemented
 ReturnNewObject
 StrictTypeChecking
 Supplemental=*

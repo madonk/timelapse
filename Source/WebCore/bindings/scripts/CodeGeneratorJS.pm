@@ -1791,7 +1791,7 @@ sub GenerateImplementation
                     push(@implContent, "        return jsUndefined();\n");
                 }
 
-                if ($attribute->signature->extendedAttributes->{"ReplayNotImplemented"}) {
+                if ($attribute->signature->extendedAttributes->{"Nondeterministic"}) {
                     $implIncludes{"PlaybackError.h"} = 1;
                     $implIncludes{"<wtf/timelapse/DeterminismLog.h>"} = 1;
                     push(@implContent, "#if ENABLE(TIMELAPSE)\n");
